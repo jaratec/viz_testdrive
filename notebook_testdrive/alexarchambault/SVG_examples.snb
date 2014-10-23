@@ -1,0 +1,82 @@
+{
+  "metadata":{
+    "name":"SVG_examples",
+    "user_save_timestamp":"2014-10-19T16:28:39.501Z",
+    "auto_save_timestamp":"2014-10-23T12:55:41.378Z"
+  },
+  "worksheets":[{
+    "cells":[{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" fill=\"none\" stroke-width=\"3\" >\n    <polygon points=\"57,151  63,161  57,172   69,172  75,183  69,193  57,193\n                     63,204  57,214  69,214  75,225   81,214  93,214 100,225\n                     93,235 106,235 112,246  106,257  93,257  99,267  93,278\n                     81,278  75,267  69,278   57,278  63,288  57,299  69,299\n                     75,309  69,320  57,320   63,331  57,341  69,341  75,352\n                     81,341  93,341  99,352  93,362  105,362 112,373 118,362\n                     130,362 124,352 130,341 142,341 148,352 154,341 166,341\n                     172,352 166,362 178,362 185,373 178,383 166,383 172,394\n                     166,404 178,404 185,415 191,404 203,404 209,415 203,426\n                     215,426 221,436 227,426 239,426 233,415 239,404 251,404\n                     257,415 264,404 276,404 270,394 276,383 264,383 257,373\n                     264,362 276,362 270,352 276,341 288,341 294,352 300,341\n                     312,341 318,352 312,362 324,362 330,373 337,362 349,362\n                     343,352 349,341 361,341 367,352 373,341 385,341 379,331\n                     385,320 373,320 367,309 373,299 385,299 379,288 385,278\n                     373,278 367,267 361,278 349,278 343,267 349,257 336,257\n                     330,246 336,235 349,235 342,225 349,214 361,214 367,225\n                     373,214 385,214 379,204 385,193 373,193 367,183 373,172\n                     385,172 379,161 385,151 373,151 367,140 361,151 349,151\n                     342,140 349,130 336,130 330,119 324,130 312,130 318,140\n                     312,151 300,151 294,140 288,151 276,151 270,140 276,130\n                     264,130 257,119 264,109 276,109 270,98  276,88  264,88\n                     257,77  251,88  239,88  233,77  239,67  227,67  221,56\n                     215,67  203,67  209,77  203,88  191,88  185,77  178,88\n                     166,88  172,98  166,109 178,109 185,119 178,130 166,130\n                     172,140 166,151 154,151 148,140 142,151 130,151 124,140\n                     130,130 118,130 112,119 106,130 93,130  100,140 93,151\n                     81,151  75,140  69,151  57,151\" />\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":84,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n\n  <g stroke=\"black\" stroke-width=\"3\" >\n\n    <path d=\"M130,200 A 100,100,0,1,0,230,100 v 100 z\" fill=\"darkturquoise\"/>\n\n    <path d=\"M100,180 h 100 v -100 A 100,100,0,0,0,100,180\" fill=\"aquamarine\" />\n\n    <g stroke-width=\"1\">\n      <text x=\"70\"  y=\"210\">(130,200)</text>\n      <text x=\"220\" y=\"90\">(230,100)</text>\n      <text x=\"40\"  y=\"180\">(100,180)</text>\n      <text x=\"180\" y=\"70\">(200,80)</text>\n    </g>\n\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":15,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" stroke-width=\"3\" >\n\t<path d=\"M50,125 C 100,25 150,225, 200, 125\" style=\"fill: none; stroke: blue;\"/>\n\n    <path d=\"M-10,-3 L10,-3 L0,-25z\" style=\"fill: yellow; stroke: red;\">\n    <animateMotion\n      path=\"M50,125 C 100,25 150,225, 200, 125\"\n  \t  rotate=\"auto\"\n\t  dur=\"6s\" fill=\"freeze\"/>\n    </path>\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":19,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" stroke-width=\"3\" >\n    <defs>\n      <linearGradient id=\"two_hues\">\n  \t\t<stop offset=\"0%\" style=\"stop-color: lavender\"/>\n  \t\t<stop offset=\"100%\" style=\"stop-color: indigo\"/>\n      </linearGradient>\n    </defs>\n    <rect x=\"20\" y=\"20\" width=\"200\" height=\"100\" style=\"fill: url(#two_hues); stroke: black;\"/>  \n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":30,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"",
+      "language":"scala",
+      "collapsed":true,
+      "outputs":[]
+    }]
+  }],
+  "autosaved":[{
+    "cells":[{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" fill=\"none\" stroke-width=\"3\" >\n    <polygon points=\"57,151  63,161  57,172   69,172  75,183  69,193  57,193\n                     63,204  57,214  69,214  75,225   81,214  93,214 100,225\n                     93,235 106,235 112,246  106,257  93,257  99,267  93,278\n                     81,278  75,267  69,278   57,278  63,288  57,299  69,299\n                     75,309  69,320  57,320   63,331  57,341  69,341  75,352\n                     81,341  93,341  99,352  93,362  105,362 112,373 118,362\n                     130,362 124,352 130,341 142,341 148,352 154,341 166,341\n                     172,352 166,362 178,362 185,373 178,383 166,383 172,394\n                     166,404 178,404 185,415 191,404 203,404 209,415 203,426\n                     215,426 221,436 227,426 239,426 233,415 239,404 251,404\n                     257,415 264,404 276,404 270,394 276,383 264,383 257,373\n                     264,362 276,362 270,352 276,341 288,341 294,352 300,341\n                     312,341 318,352 312,362 324,362 330,373 337,362 349,362\n                     343,352 349,341 361,341 367,352 373,341 385,341 379,331\n                     385,320 373,320 367,309 373,299 385,299 379,288 385,278\n                     373,278 367,267 361,278 349,278 343,267 349,257 336,257\n                     330,246 336,235 349,235 342,225 349,214 361,214 367,225\n                     373,214 385,214 379,204 385,193 373,193 367,183 373,172\n                     385,172 379,161 385,151 373,151 367,140 361,151 349,151\n                     342,140 349,130 336,130 330,119 324,130 312,130 318,140\n                     312,151 300,151 294,140 288,151 276,151 270,140 276,130\n                     264,130 257,119 264,109 276,109 270,98  276,88  264,88\n                     257,77  251,88  239,88  233,77  239,67  227,67  221,56\n                     215,67  203,67  209,77  203,88  191,88  185,77  178,88\n                     166,88  172,98  166,109 178,109 185,119 178,130 166,130\n                     172,140 166,151 154,151 148,140 142,151 130,151 124,140\n                     130,130 118,130 112,119 106,130 93,130  100,140 93,151\n                     81,151  75,140  69,151  57,151\" />\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":3,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n\n  <g stroke=\"black\" stroke-width=\"3\" >\n\n    <path d=\"M130,200 A 100,100,0,1,0,230,100 v 100 z\" fill=\"darkturquoise\"/>\n\n    <path d=\"M100,180 h 100 v -100 A 100,100,0,0,0,100,180\" fill=\"aquamarine\" />\n\n    <g stroke-width=\"1\">\n      <text x=\"70\"  y=\"210\">(130,200)</text>\n      <text x=\"220\" y=\"90\">(230,100)</text>\n      <text x=\"40\"  y=\"180\">(100,180)</text>\n      <text x=\"180\" y=\"70\">(200,80)</text>\n    </g>\n\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":1,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" stroke-width=\"3\" >\n    <defs>\n      <linearGradient id=\"two_hues\">\n  \t\t<stop offset=\"0%\" style=\"stop-color: lavender\"/>\n  \t\t<stop offset=\"100%\" style=\"stop-color: indigo\"/>\n      </linearGradient>\n    </defs>\n    <rect x=\"20\" y=\"20\" width=\"200\" height=\"100\" style=\"fill: url(#two_hues); stroke: black;\"/>  \n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":2,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"500\" >\n  <g stroke=\"black\" stroke-width=\"3\" >\n\t<path d=\"M50,125 C 100,25 150,225, 200, 125\" style=\"fill: none; stroke: blue;\"/>\n\n    <path d=\"M-10,-3 L10,-3 L0,-25z\" style=\"fill: yellow; stroke: red;\">\n    <animateMotion\n      path=\"M50,125 C 100,25 150,225, 200, 125\"\n  \t  rotate=\"auto\"\n\t  dur=\"6s\" fill=\"freeze\"/>\n    </path>\n  </g>\n</svg>",
+      "language":"scala",
+      "collapsed":false,
+      "prompt_number":19,
+      "outputs":[]
+    },{
+      "cell_type":"code",
+      "input":"",
+      "language":"scala",
+      "collapsed":true,
+      "outputs":[]
+    }]
+  }],
+  "nbformat":3
+}
